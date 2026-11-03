@@ -7,3 +7,11 @@ app.use(express.urlencoded({
     extended: false
 }));
 
+app.listen(port, () => {
+    console.log('Server started on port 3000');
+});
+
+app.listen(PORT, () => {
+    console.log('Server started on port 3000');
+})
+
